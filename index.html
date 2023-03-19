@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#endorsements">Endorsements</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="active">Hire me</a></li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="blob" id="blobers">
+          <div class="container grid-2">
+            <div class="column-1">
+
+              <h1 class="header-title">I'm <span class="multiText"></span></h1>
+
+              <p class="text">
+                who loves creating visually appealing 
+                and interactive websites. I stay up-to-date with the latest 
+                technologies and enjoy the creative process of bringing ideas 
+                to life. My goal is to some day inspire 
+                others the same way I'm getting inspire by people around me.
+              </p>
+              <a href="CV2.pdf" class="btn">Download CV</a>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/person.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+        </div>
+      </header>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What I Do">Services</h3>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img src="./img/design-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Design</h3>
+                  <p class="text">
+                    Creation and arrangement of visual and interactive elements to enhance its aesthetic appeal and usability.
+                  </p>
+                  <a href="#about" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./img/code-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Development</h3>
+                  <p class="text">
+                    Creating and building functional websites and web applications using programming languages and frameworks.
+                  </p>
+                  <a href="#about" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">App Development</h3>
+                  <p class="text">
+                    Process of designing and creating software applications for mobile devices such as smartphones and tablets.
+                  </p>
+                  <a href="#about" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Who am I?</h3>
+              <p class="text">
+                My name is Leonard Lind and I live in Stockholm. 
+                I decided that I was done working in school and wanted to pursue a career in coding.
+                The first similirety I saw with teaching and coding is having that room to be able to fail.
+                I like being able to make mistake and by knowing that I'm a person that's resilient, 
+                I'll keep trying at a problem until I come up with a solution. 
+                Once I started seeing that I could type a bunch of text into a code editor 
+                and see an application or an interface that's when I was like, "Okay, I like this."
+              </p>
+              <div class="skills">
+                <div class="skill html">
+                  <h3 class="skill-title">HTML</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">CSS</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="50%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">React</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="40%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">Photoshop</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+              </div>
+              <a href="#blog" class="btn">Read more</a>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/about.png" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="records">
+        <div class="container">
+          <div class="wrap">
+            <div class="record-circle active">
+              <h2 class="number" data-num="1">0</h2>
+              <h4 class="sub-title">Projects</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="174">0</h2>
+              <h4 class="sub-title">Happy Clients</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="1337">0</h2>
+              <h4 class="sub-title">Work Hour</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="365">0</h2>
+              <h4 class="sub-title">Awards</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog section" id="blog">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Last News">My blog</h3>
+            <p class="text">
+              Features personal updates and reflections, offering an intimate glimpse into my world.
+            </p>
+          </div>
+
+          <div class="blog-wrapper">
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog1.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">13 September 2022</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Leonard</h5>
+                  </div>
+                  <h3 class="title-sm">My experience with mining</h3>
+                  <p class="blog-text">
+                    A demanding and intricate task that requires technical expertise and problem-solving skills. 
+                    A challenge that requires a willingness to learn and adapt. 
+                  </p>
+                  <a href="#endorsements" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog2.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">16, March 2023</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Leonard</h5>
+                  </div>
+                  <h3 class="title-sm">Working as a teacher</h3>
+                  <p class="blog-text">
+                    Teaching provides valuable insights into students' 
+                    perspectives and learning styles, 
+                    and the joy of seeing students learn and succeed is incredibly rewarding.
+                  </p>
+                  <a href="#endorsements" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog3.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">09, March 2021</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Leonard</h5>
+                  </div>
+                  <h3 class="title-sm">Google Minesweeper 197th</h3>
+                  <p class="blog-text">
+                    I speedran Google Mine Sweeper and secured 197th place on the leaderboard. 
+                    While not a major accomplishment, it's great filler text for a portfolio website.
+                  </p>
+                  <a href="https://www.speedrun.com/gm/run/yv2ldgxm" class="btn small">View video</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="endorsements section" id="endorsements">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What People Say">Endorsements</h3>
+          </div>
+
+          <div class="testi-content grid-2">
+            <div class="column-1 reviews">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide review">
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      I had the pleasure of working with Leonard and was truly impressed with the perfectionism he brought to his work. 
+                      Every detail was meticulously crafted and delivered with the utmost care and attention. 
+                      His commitment to excellence was evident in every project he tackled, and his results spoke for themselves. 
+                      I would highly recommend Leonard for anyone seeking a skilled and dedicated professional who takes pride in delivering top-quality work.
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Peonard Vind</h3>
+                      <h5 class="review-job">CEO, Paris</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Leonard is an exceptional professional who consistently delivers outstanding results. 
+                      His attention to detail and focus on perfectionism is second to none, and he approach every project with enthusiasm and dedication. 
+                      I have had the pleasure of working with Leonard on several occasions and have always been impressed with the quality of his work. 
+                      Leonard is a a true asset to any team and I would highly recommend him to anyone seeking a talented and reliable partner.
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Jeonard Bind</h3>
+                      <h5 class="review-job">COO, Munich</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Oh my sweet son, your coding career makes my heart swell with pride! 
+                      You are a true gem, and I know that you will continue to shine brightly as you pursue your dreams. 
+                      Always remember that I am here to support you, no matter what. 
+                      Keep up the great work! ps can you help me reset my facebook password again. 
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Mom</h3>
+                      <h5 class="review-job">Gardener, Stockholm</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Woof woof! Hey there, human! It's your loyal companion here. 
+                      I just wanted to say how grateful I am to be part of your life. 
+                      I may not be able to speak your language, but I understand you better than anyone else. 
+                      I promise to always be by your side, wagging my tail and giving you lots of love and affection. 
+                      Thank you for being the best human in the world and giving me a loving home to call my own. Woof!
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Dog</h3>
+                      <h5 class="review-job">Stick finder, Stockholm</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review-nav swiper-button-prev">
+                  <i class="fas fa-long-arrow-alt-left"></i>
+                </div>
+                <div class="review-nav swiper-button-next">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/testi.png" alt="" class="img-element" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery">
+        <div class="background-bg">
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Photo">Gallery</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".herb">Herb</button>
+              <button class="filter-btn" data-filter=".brassicaceae">Brassicaceae</button>
+              <button class="filter-btn" data-filter=".salad">Salad</button>
+              <button class="filter-btn" data-filter=".allium">Allium</button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item herb">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>Mint</h3>
+                      <h5>Herb</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item herb">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port2.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>Coriander</h3>
+                      <h5>Herb</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item herb">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port3.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>French dragon</h3>
+                      <h5>Herb</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item herb">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port4.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>Salvia</h3>
+                      <h5>Herb</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item herb">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port5.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>Lemon balm</h3>
+                      <h5>Herb</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item brassicaceae">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port6.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>Arugula</h3>
+                      <h5>Brassicaceae</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item salad">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port7.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>Iceberg lettuce</h3>
+                      <h5>Salad</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item allium">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port8.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>Chive</h3>
+                      <h5>Allium</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item allium">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port9.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>Leek</h3>
+                      <h5>Allium</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Get in touch</h3>
+              <p class="text"> You gotten this far, now you only need to make the right decision by getting in touch with me. </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Stockholm</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">Konungenleo@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">070-633 6492</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3 class="title">Contact me</h3>
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="First Name"/>
+                <input type="text" class="contact-input" placeholder="Last Name"/>
+              </div>
+
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Phone" />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea name="message" class="contact-input textarea" placeholder="For visual purposes only. This will not send a message to me. Please get in touch via email or phone using the contact information provided under 'Get in Touch'."></textarea>
+            </div>
+              <a href="#header" class="btn">Send</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">This is the end of the road</h3>
+          <p class="text">
+            You've likely spent a considerable amount of time on this page, and I can understand that it might be tiring. 
+            So, to save us both time, I would like to offer my services as a candidate for the position. 
+            By hiring me, you won't need to review any other applications, and I can avoid having to search for other job opportunities.
+          </p>
+          <a href="#contact" class="btn">Hire me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+              I found that I was really good at finding issues, 
+              My thought process is always, “Why was this process designs this way? 
+              Is it really efficient? What if I do this? What if I do that?”
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#endorsements">Endorsements</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Gallery</h3>
+            <ul>
+              <li>
+                <a href="#gallery">Herb</a>
+              </li>
+              <li>
+                <a href="#gallery">Brassiecaceae</a>
+              </li>
+              <li>
+                <a href="#gallery">Salad</a>
+              </li>
+              <li>
+                <a href="#gallery">Allium</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Follow me</h3>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/leonard.lind/">Facebook</a>
+                </li>
+                <li>
+                  <a href="https://codepen.io/LeonardLind">Codepen</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/leonard-lind-b8744324b/">Linkedin</a>
+                </li>
+                <input class="footer-input" />
+              </ul>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              All rights reserved | Made by
+              <span>Leonard</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="https://www.facebook.com/leonard.lind/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://codepen.io/LeonardLind">
+                  <i class="fab fa-codepen"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leonard-lind-b8744324b/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#header" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="webportf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
